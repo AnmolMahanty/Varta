@@ -6,7 +6,7 @@
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Anmol",
   "type": "module",
   "license": "ISC",
   "description": "",

@@ -15,6 +15,7 @@ export const useAuthStore = create((set, get) => ({
   socket: null,
 
   checkAuth: async () => {
+    set({ isCheckingAuth: true });
     try {
       const res = await axiosInstance.get("/auth/check");
 
@@ -23,6 +24,11 @@ export const useAuthStore = create((set, get) => ({
     } catch (error) {
       console.log("Error in checkAuth:", error);
       set({ authUser: null });
+      if (error.response && error.response.status === 401) {
+        toast.error("Unauthorized. Please log in again.");
+      } else {
+        toast.error("Error in checkAuth: " + error.message);
+      }
     } finally {
       set({ isCheckingAuth: false });
     }
