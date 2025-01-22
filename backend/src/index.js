@@ -11,7 +11,7 @@ import path from "path";
 dotenv.config();
 
 const port = process.env.PORT;
-const __dirname = path.resolve();
+const __dirname = path.resolve(); 
 
 app.use(express.json());
 app.use(cors({
@@ -25,11 +25,10 @@ app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
 
 if (process.env.NODE_ENV === "production") {
-    // Adjust the path based on your actual build output directory
-    app.use(express.static(path.join(__dirname, "/frontend/dist"))); 
+    app.use(express.static(path.join(__dirname, '../frontend/build'))); 
 
     app.get("*", (req, res) => {
-        res.sendFile(path.join(__dirname, "/frontend/dist/index.html"));
+        res.sendFile(path.join(__dirname, '../frontend/build/index.html')); 
     })
 }
 
