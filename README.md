@@ -1,7 +1,7 @@
-Name: Anmol Mahanty
-ID : CT6WDS2544
-Domain : Frontend Web Development
-Company : CODETECH IT SOLUTIONS PVT.LTD
+-Name: Anmol Mahanty
+-ID : CT6WDS2544
+-Domain : Frontend Web Development
+-Company : CODETECH IT SOLUTIONS PVT.LTD
 
 # Varta
 
