@@ -1,3 +1,8 @@
+Name: Anmol Mahanty
+ID : CT6WDS2544
+Domain : Frontend Web Development
+Company : CODETECH IT SOLUTIONS PVT.LTD
+
 # Varta
 
 Varta is an innovative communication platform designed to enhance real-time interactions with seamless integration of modern technologies. It aims to provide a user-friendly interface with robust performance, making communication efficient and reliable.
