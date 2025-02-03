@@ -12,11 +12,10 @@ Varta is an innovative communication platform designed to enhance real-time inte
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** [Specify Framework/Library - e.g., React, Angular, etc.]
-- **Backend:** [Specify Backend Framework - e.g., Node.js, Django, etc.]
-- **Database:** [Specify Database - e.g., MongoDB, MySQL, etc.]
-- **Authentication:** [Specify - e.g., JWT, OAuth, etc.]
-- **Deployment:** [Specify - e.g., Docker, Vercel, Netlify, etc.]
+- **Frontend:** React,Daisy UI ,Lucide-React
+- **Backend:** Node.js, Express
+- **Database:**  MongoDB
+- **Authentication:** JWT
 
 ## 📦 Installation & Setup
 
